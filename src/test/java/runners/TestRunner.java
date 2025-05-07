@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = "steps",
         dryRun = false,
         tags = "@login",
-        plugin = {"pretty"}
+        plugin = {"pretty", "html:target/report.html"}
 )
 
 public class TestRunner {
