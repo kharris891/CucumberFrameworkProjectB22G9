@@ -16,7 +16,7 @@ public class LoginSteps extends CommonMethods {
     @When("I enter empty username and valid password")
     public void i_enter_empty_username_and_valid_password() {
         sendText(loginPage.usernameField, "");
-        sendText(loginPage.passwordField, "humn");
+        sendText(loginPage.passwordField, "Hum@nhrm123");
     }
 
     @When("I click the login button")

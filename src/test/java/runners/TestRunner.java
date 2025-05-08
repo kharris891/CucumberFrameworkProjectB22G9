@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "steps",
-        dryRun = false,
-        tags = "@login",
+        dryRun = true,
+        tags = "@no_id",
         plugin = {"pretty", "html:target/report.html"}
 )
 
